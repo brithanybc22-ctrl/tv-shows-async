@@ -3,11 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TV Shows - TVMaze</title>
+  <title>TV Shows - Catálogo</title>
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
   <div class="content">
+    <!-- Buscador  -->
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Escribe el nombre de cualquier serie...">
+      <button id="search-btn">Buscar</button>
+    </div>
+
+    <!-- Catálogo de series recomendadas -->
+    <div class="catalog">
+      <h3>Catálogo rápido</h3>
+      <div class="catalog-buttons">
+        <button class="catalog-btn" data-show="Stranger Things">Stranger Things</button>
+        <button class="catalog-btn" data-show="Friends">Friends</button>
+        <button class="catalog-btn" data-show="Breaking Bad">Breaking Bad</button>
+        <button class="catalog-btn" data-show="The Office">The Office</button>
+        <button class="catalog-btn" data-show="Game of Thrones">Game of Thrones</button>
+      </div>
+    </div>
+
     <header></header>
     <article class="episodes"></article>
   </div>

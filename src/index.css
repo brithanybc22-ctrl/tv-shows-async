@@ -95,3 +95,78 @@ header h1 {
 .rating-8 { --color: #48bb78; }
 .rating-9 { --color: #2f855a; }
 .rating-10 { --color: #4CAF50; }
+
+/* Estilos para la barra de búsqueda */
+.search-box {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #fe704d;
+}
+
+.search-box button {
+  padding: 0 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #fe704d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-box button:hover {
+  background: #e05b39;
+}
+/* Estilos para el catálogo de series */
+.catalog {
+  width: 100%;
+  max-width: 900px;
+  background: #222;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.catalog h3 {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.catalog-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.catalog-btn {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+.catalog-btn:hover {
+  background: #fe704d;
+  border-color: #fe704d;
+}
